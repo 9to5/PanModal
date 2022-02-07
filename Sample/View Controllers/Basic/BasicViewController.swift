@@ -33,4 +33,14 @@ extension BasicViewController: PanModalPresentable {
     var anchorModalToLongForm: Bool {
         return false
     }
+    
+    var panModalBackgroundColor: UIColor { .clear }
+    
+    var shouldRoundTopCorners: Bool { false }
+    
+    var shouldShowShadow: Bool { true }
+    
+    var shadowColor: UIColor { .green }
+    
+    var shadowOpacity: Float { 0.7 }
 }
